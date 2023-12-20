@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "cord_xyz_lonlat",
-    "version": "0.0.1"
+    "productName": "经纬度和WGS84互转工具",
+    "version": "0.1"
   },
   "tauri": {
     "bundle": {
@@ -29,7 +29,7 @@
       {
         "fullscreen": false,
         "resizable": false,
-        "title": "经纬度和ws84互转工具",
+        "title": "经纬度和WGS84互转工具",
         "width": 600,
         "height": 750
       }
