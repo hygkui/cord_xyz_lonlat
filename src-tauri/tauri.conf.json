@@ -1,0 +1,43 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "cord_xyz_lonlat",
+    "version": "0.0.1"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "guohh.tr",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": false,
+        "title": "经纬度和ws84互转工具",
+        "width": 600,
+        "height": 750
+      }
+    ]
+  },
+  "plugins": {
+    "shell": {
+      "open": true
+    }
+  }
+}

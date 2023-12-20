@@ -1,0 +1,27 @@
+{
+  "name": "cord_xyz_lonlat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0-alpha.12",
+    "@tauri-apps/plugin-shell": "^2.0.0-alpha.3",
+    "@types/proj4": "^2.5.5",
+    "element-plus": "^2.4.4",
+    "proj4": "^2.9.2",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0-alpha.18",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4",
+    "vue-tsc": "^1.8.5"
+  }
+}
