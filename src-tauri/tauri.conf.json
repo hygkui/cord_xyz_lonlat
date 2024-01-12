@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "经纬度和WGS84互转工具",
-    "version": "0.1"
+    "version": "1.0.1"
   },
   "tauri": {
     "bundle": {
@@ -38,6 +38,14 @@
   "plugins": {
     "shell": {
       "open": true
+    },
+    "fs": {
+      "scope": [
+        "$APPLOG/*",
+        "$TEMP/*",
+        "$APP/*",
+        "$RESOURCE/*"
+      ]
     }
   }
 }

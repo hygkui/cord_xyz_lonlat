@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^2.0.0-alpha.12",
+    "@tauri-apps/plugin-log": "2.0.0-alpha.5",
     "@tauri-apps/plugin-shell": "^2.0.0-alpha.3",
     "@types/proj4": "^2.5.5",
     "element-plus": "^2.4.4",
